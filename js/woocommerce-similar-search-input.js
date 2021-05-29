@@ -1,7 +1,3 @@
-//const searchBar = document.querySelector('.woocommsearch');
-//const foundMatchesContainer = document.querySelector('.found-matches');
-//const ajaxUrl = my_script_vars.ajaxurl;
-
 function WoocommerceSimilarSearchInput(){
 
     this.searchBar = document.querySelector('.woocommsearch');
@@ -16,7 +12,6 @@ function WoocommerceSimilarSearchInput(){
       clearTimeout(this.debouncer);
       this.debouncer = setTimeout(() => this.similarSearchInputDetected(e), 500)
     } );
-//function(e){this.similarSearchInputDetected(e)}.bind(this)
 }
 
 WoocommerceSimilarSearchInput.prototype = {
