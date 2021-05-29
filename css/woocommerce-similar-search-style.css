@@ -1,0 +1,74 @@
+.found-matches{
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    z-index: 9999;
+}
+
+.woocomm-live-search-container{
+    width: 100%;
+}
+.woocomm-live-search-container > form{
+    font-size: 0;
+}
+.woocomm-live-search-container > form > input{
+    width: 85%;
+    font-size: 16px;
+}
+
+.woocomm-live-search-container > form > button{
+    width: 15%;
+    font-size: 16px;
+}
+
+.found-matches{
+    border: 1px solid grey;
+    display: none;
+}
+
+.found-product{
+    padding: 10px 10px;
+}
+.found-product > p{
+    margin: 0;
+}
+
+.found-product:hover{
+    background-color: #ddd;
+}
+
+.similar-search-button{
+    border: none;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.woocomm-simi-search-input{
+    border: none;
+}
+.woocomm-simi-search-input:focus{
+    border: none;
+}
+
+
+#loading {
+  display: none;
+  width: 24px;
+  height: 24px;
+  border: 3px solid rgba(255,255,255,.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
